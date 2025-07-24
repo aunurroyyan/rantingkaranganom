@@ -32,11 +32,11 @@
     
     <script>
         // memanggil komponen
-        fetch('/komponen/header.html')
+        fetch('../komponen/header.html')
       .then(res => res.text())
       .then(data => document.getElementById('header').innerHTML = data);
 
-       fetch('/komponen/footer.html')
+       fetch('../komponen/footer.html')
       .then(res => res.text())
       .then(data => document.getElementById('footer').innerHTML = data);
     </script>
